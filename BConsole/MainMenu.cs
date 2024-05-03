@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Threading;
-using System.Drawing;
 
 namespace ConsoleApplication2
 {
     public class MainMenu
     {
-        
+
         public static void Menu()
         {
             for (;;)
@@ -18,7 +17,7 @@ namespace ConsoleApplication2
                 Say("2", "Info");
                 Say("3", "Discord Server");
                 Say("4", "Exit");
-                string option = Console.ReadLine();
+                string option = Console.ReadLine().ToLower();
                 if (option == "1")
                 {
                     // Go to checker
@@ -29,11 +28,12 @@ namespace ConsoleApplication2
                 }
                 else if (option == "3")
                 {
-                    // Go to Discord Server
+                    DiscordSrv.DiscordServer();
                 }
                 else if (option == "4")
                 {
-                    Exit.Main();
+                    Console.WriteLine("Exiting...");
+                    throw new Exception();
                 }
                 else
                 {

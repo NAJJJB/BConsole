@@ -39,7 +39,7 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Exit.cs" />
+        <Compile Include="DiscordSrv.cs" />
         <Compile Include="MainMenu.cs" />
         <Compile Include="Login.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />

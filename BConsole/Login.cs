@@ -5,7 +5,7 @@ namespace ConsoleApplication2
 {
     public class Login
     {
-        public static void Exit()
+        public static void Main(string []args)
         {
             string startCommand;
             Console.Title = "BConsole";

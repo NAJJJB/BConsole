@@ -4,3 +4,9 @@ C:\Users\Neo\RiderProjects\ConsoleApplication2\BConsole\obj\Debug\BConsole.cspro
 C:\Users\Neo\RiderProjects\ConsoleApplication2\BConsole\obj\Debug\BConsole.csproj.CoreCompileInputs.cache
 C:\Users\Neo\RiderProjects\ConsoleApplication2\BConsole\obj\Debug\BConsole.exe
 C:\Users\Neo\RiderProjects\ConsoleApplication2\BConsole\obj\Debug\BConsole.pdb
+C:\Users\neoma\RiderProjects\BConsole\BConsole\bin\Debug\BConsole.exe
+C:\Users\neoma\RiderProjects\BConsole\BConsole\bin\Debug\BConsole.pdb
+C:\Users\neoma\RiderProjects\BConsole\BConsole\obj\Debug\BConsole.csproj.AssemblyReference.cache
+C:\Users\neoma\RiderProjects\BConsole\BConsole\obj\Debug\BConsole.csproj.CoreCompileInputs.cache
+C:\Users\neoma\RiderProjects\BConsole\BConsole\obj\Debug\BConsole.exe
+C:\Users\neoma\RiderProjects\BConsole\BConsole\obj\Debug\BConsole.pdb
