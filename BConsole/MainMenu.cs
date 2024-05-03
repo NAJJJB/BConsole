@@ -13,14 +13,14 @@ namespace ConsoleApplication2
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Blue;
                 WriteLogo();
-                Say("1", "Checker");
+                Say("1", "Budget Manager");
                 Say("2", "Info");
                 Say("3", "Discord Server");
                 Say("4", "Exit");
                 string option = Console.ReadLine();
                 if (option == "1")
                 {
-                    // Go to checker
+                    BudgetManager.BudgetMenu();
                 }
                 else if (option == "2")
                 {
