@@ -9,7 +9,7 @@ namespace ConsoleApplication2
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Blue;
             MainMenu.WriteLogo();
-            Console.WriteLine("BudgetConsole v1.0 built with \u2764 by NAJJJB");
+            Console.WriteLine($"BudgetConsole v1.0 built with \u2764 by NAJJJB");
             Console.ReadKey();
         }
     }

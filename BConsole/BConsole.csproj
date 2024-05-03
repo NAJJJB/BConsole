@@ -39,9 +39,10 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="BudgetAdd.cs" />
         <Compile Include="BudgetManager.cs" />
-        <Compile Include="BudgetView.cs" />
+        <Compile Include="BudgetManager\BudgetAdd.cs" />
+        <Compile Include="BudgetManager\BudgetEdit.cs" />
+        <Compile Include="BudgetManager\BudgetView.cs" />
         <Compile Include="DiscordSrv.cs" />
         <Compile Include="Info.cs" />
         <Compile Include="MainMenu.cs" />

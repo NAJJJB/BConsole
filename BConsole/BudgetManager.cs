@@ -8,15 +8,15 @@ namespace ConsoleApplication2
         public static void BudgetMenu()
         {
             Console.Clear();
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
             MainMenu.WriteLogo();
             Console.WriteLine("Budget Manager");
-            Console.WriteLine("1. Add Budget");
-            Console.WriteLine("2. View Budget");
-            Console.WriteLine("3. Edit Budget");
-            Console.WriteLine("4. Delete Budget");
-            Console.WriteLine("5. Back to Main Menu");
-            string option = Console.ReadLine();
+            Console.WriteLine("[1] Add Budget");
+            Console.WriteLine("[2] View Budget");
+            Console.WriteLine("[3] Edit Budget");
+            Console.WriteLine("[4] Delete Budget");
+            Console.WriteLine("[5] Back to Main Menu");
+            string option = Console.ReadKey().KeyChar.ToString();
             if (option == "1")
             {
                 BudgetAdd.AddBudget();
