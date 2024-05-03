@@ -40,6 +40,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="DiscordSrv.cs" />
+        <Compile Include="Info.cs" />
         <Compile Include="MainMenu.cs" />
         <Compile Include="Login.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />

@@ -17,14 +17,14 @@ namespace ConsoleApplication2
                 Say("2", "Info");
                 Say("3", "Discord Server");
                 Say("4", "Exit");
-                string option = Console.ReadLine().ToLower();
+                string option = Console.ReadLine();
                 if (option == "1")
                 {
                     // Go to checker
                 }
                 else if (option == "2")
                 {
-                    //Go to info
+                    Info.InfoMenu();
                 }
                 else if (option == "3")
                 {
