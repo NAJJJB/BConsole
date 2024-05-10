@@ -17,6 +17,7 @@ namespace ConsoleApplication2
             {
                 Console.WriteLine("Starting");
                 System.Threading.Thread.Sleep(500);
+                Info.licenseCheck();
                 MainMenu.Menu();
             }
         }

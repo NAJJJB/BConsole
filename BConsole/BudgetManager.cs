@@ -19,17 +19,17 @@ namespace ConsoleApplication2
             string option = Console.ReadKey().KeyChar.ToString();
             if (option == "1")
             {
-                BudgetAdd.AddBudget();
             }
             else if (option == "2")
             {
-             BudgetView.ViewBudget();   
             }
             else if (option == "3")
             {
+                BudgetEdit.EditBudget();
             }
             else if (option == "4")
             {
+                
             }
             else if (option == "5")
             {
